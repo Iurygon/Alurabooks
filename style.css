@@ -1,0 +1,17 @@
+/*IMPORTS*/
+
+
+@import url(style/header.css);
+
+
+/*VARIÁVEIS*/
+
+
+:root{
+    --cor_de_fundo: #EBECEE;
+    --branco: #FFFFFF;
+}
+
+body{
+    background-color: var(--cor_de_fundo);
+}

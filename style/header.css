@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    background-color: var(--branco);
+    justify-content: space-between;
+}
+
+.header__menu_hamburguer{
+    display: inline-block;
+    background: url(../img/Menu.svg) no-repeat center;
+    width: 24px;
+    height: 24px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem{
+    padding: 1em;
+}
