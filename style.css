@@ -2,6 +2,11 @@
 
 
 @import url(style/header.css);
+@import url(style/banner.css);
+@import url(style/carrossel.css);
+@import url(style/tópicos.css);
+@import url(style/contato.css);
+@import url(style/footer.css);
 
 
 /*VARIÁVEIS*/
@@ -12,10 +17,15 @@
     --branco: #FFFFFF;
     --laranja: #EB9B00;
     --azul_degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --azul: #002f52;
+    --fonte_principal: "Poppins";
 
 }
 
 body{
     background-color: var(--cor_de_fundo);
+    font-family: var(--fonte_principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
