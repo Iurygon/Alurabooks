@@ -29,11 +29,11 @@
     width: 60vw;
 }
 
-.container__botao:checked~.lista__menu{
+.container__button:checked~.lista__menu{
     display: block;
 }
 
-.container__botao{
+.container__button{
     display: none;
 }
 
@@ -100,6 +100,15 @@
 
     .container__imagem_favoritos{
         display: none;
+    }
+
+    .options__button{
+        display: none;
+    }
+
+    .options__button:checked ~ .lista__menu{
+        display: block;
+        width: auto;
     }
 
 }
