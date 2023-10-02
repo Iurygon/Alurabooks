@@ -9,3 +9,44 @@ hr{
 .footer__titulo{
     padding: 1em;
 }
+
+.footer__lista{
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+
+    .footer{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer__titulo{
+        font-size: 24px;
+    }
+
+    .footer__lista{
+        display: block;
+        padding-top: 2em;
+    }
+
+    .footer__lista_item{
+        display: flex;
+        align-items: center;
+        margin-top: 0.8em
+    }
+
+    .footer__lista_titulo{
+        font-size: 14px;
+        color: var(--cinza_footer);
+        text-transform: uppercase;
+    }
+
+    .footer__lista_link{
+        font-size: 14px;
+        text-decoration: none;
+        color: var(--black);
+        margin-left: 0.6em;
+    }
+
+}
