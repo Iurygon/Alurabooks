@@ -22,6 +22,14 @@
     height: 24px;
 }
 
+.container__button:checked ~ .container__label > .header__menu_hamburguer{
+    background: url(../img/Menu_Marcado.svg) no-repeat center;
+}
+
+.container__button:checked ~ .container__label{
+    background: var(--azul_degrade);
+}
+
 .lista__menu{
     display: none;
     position: absolute;
@@ -85,12 +93,26 @@
 
     .options__item{
         text-transform: uppercase;
-        padding: 0 1em;
+        padding: 2em 1em;
     }
-
+    
+    .options__button:checked ~ .options__label > .options__item{
+        background: var(--azul_degrade);
+        -webkit-text-fill-color: var(--branco);
+    }
+    
     .options__item_link{
         text-decoration: none;
         color: var(--preto);
+    }
+
+    .lista__menu_item:hover{
+        background: var(--azul_degrade);
+    }
+
+    .lista__menu_item:hover > .lista__menu_link{
+        -webkit-text-fill-color: var(--branco);
+        text-decoration: none;
     }
 
     .options__button:checked ~ .lista__menu{

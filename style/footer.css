@@ -49,4 +49,21 @@ hr{
         margin-left: 0.6em;
     }
 
+    .footer__lista_link:hover{
+        color: var(--laranja);
+    }
+
+}
+
+@media screen and (min-width: 1728px){
+
+    .footer{
+        padding: 3em 0;
+    }
+    
+    .footer__lista{
+        border-left: 1px solid var(--cinza_footer);
+        padding-left: 1em;
+    }
+
 }

@@ -15,6 +15,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    row-gap: 0.5em;
 }
 
 .topicos__item{
@@ -39,6 +40,19 @@
     .topicos__lista{
         width: 80%;
         margin: auto;
+    }
+
+    .topicos__item_link:hover{
+        background-color: var(--branco);
+        color: var(--laranja);
+    }
+
+}
+
+@media screen and (min-width: 1728px){
+
+    .topicos{
+        padding: 3em 20vw;
     }
 
 }
