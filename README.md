@@ -10,6 +10,8 @@ Curso voltado para o aprimoramento das habilidades de HTML e CSS.
 
 ## Links
 
-### Deploy do projeto: <https://cursos.alura.com.br/course/html-css-responsividade-mobile-first>
+### Deploy do projeto:
+<https://iurygon.github.io/Alurabooks/>
 
-### Página do curso:
+### Página do curso: 
+<https://cursos.alura.com.br/course/html-css-responsividade-mobile-first>
